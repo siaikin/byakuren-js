@@ -1,7 +1,6 @@
 {
   "name": "byakuren-js",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
   "main": "dist/byakuren-js.umd.cjs",
   "module": "dist/byakuren-js.js",
