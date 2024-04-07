@@ -21,6 +21,29 @@
     "docs:preview": "vitepress preview docs",
     "prepublishOnly": "run-s build type-gen"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:siaikin/byakuren-js.git"
+  },
+  "author": {
+    "name": "siaikin",
+    "email": "abc1310054026@outlook.com"
+  },
+  "bugs": {
+    "url": "https://github.com/siaikin/byakuren-js/issues"
+  },
+  "homepage": "https://github.com/siaikin/byakuren-js#readme",
+  "keywords": [
+    "byakuren",
+    "color",
+    "extract",
+    "octree"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "types"
+  ],
   "dependencies": {
     "vue": "^3.4.21"
   },
@@ -52,5 +75,8 @@
     "vitepress": "^1.0.2",
     "vitest": "^1.4.0",
     "vue-tsc": "^2.0.6"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
